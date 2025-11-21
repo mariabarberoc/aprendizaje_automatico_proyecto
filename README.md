@@ -8,6 +8,9 @@ Autores
 
 ·María Barbero Jiménez (maria.barbero@cunef.edu)
 
+Link al repositorio:
+https://github.com/mariabarberoc/aprendizaje_automatico_proyecto.git
+
 
 Origen dataset:
 
