@@ -4,7 +4,7 @@ Autores
 
 ·Marta González Arroyo (marta.gonzalez@cunef.edu)
 
-·Cistina Morcillo Ruiz (cristina.morcillo@cunef.edu)
+·Cristina Morcillo Ruiz (cristina.morcillo@cunef.edu)
 
 ·María Barbero Jiménez (maria.barbero@cunef.edu)
 
