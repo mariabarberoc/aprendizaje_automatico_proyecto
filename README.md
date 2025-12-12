@@ -116,6 +116,11 @@ True: es el video oficial subido por el artista o la disográfica
 False: indica si el video no es oficial, como puede ser un cover o combina varias canciones
 
 
+Preparación del dataset:
+
+Como parte del preprocesado del dataset, se eliminaron las variables 'views', 'likes' y 'comments' ya que representan metricas de interacción en Youtube que solo están disponibles después de la publicación de la canción.
+
+
 Objetivos proyecto y descripción del problema de negocio
 
 En la industria músical actual Spotify y Youtube se han convertido en las principales platafromas indicadoras de éxito de una canción. Las discograficas o los propios artitas, publican canciones pero no siempre está claro qué características musicales conectan mejor con el público.
@@ -136,7 +141,8 @@ Tipo de aprendizaje:
 Se plantea un problema de aprendizaje supervisado, con u tarjet definido que permite medir de manera cuantitativa las el éxito en las canciones
 
 Variable objetivo / Target:
-En este caso, principalmente será Stream, el número de reproducciones de cada canción en Spotify, aunque se puede considerar Views, representa las visualizaciones del videoclip en Youtube o una combinación de métricas.
+La variable objetivo seleccionada es Stream, que representa el número de reproducciones que una canción obtiene en Spotify.
+Este valor actúa como indicador principal del éxito de una canción dentro de la plataforma.
 
 Vectores de atributos / Features:
 Se seleccionarán aquellas variables que reflejan la composición musical como la disfusion y engagement 
@@ -163,10 +169,6 @@ Key
 
 Duration_ms
 
-Likes
-
-Comments
-
 Official_video 
 
 Licensed
@@ -182,7 +184,6 @@ Preguntas a resolver:
 
 •⁠  ⁠¿Qué características musicales se asocian a las canciones más exitosas?
 
-•⁠  ⁠¿Infuyen factores de difusion como videoclips oficiales en Youtube o el número de likes en la popularidad de una canción?
 
 •⁠  ⁠¿Existen diferencias en los patrones de exito entre Spotify y Youtube en cuanto al éxito de las canciones?
 
