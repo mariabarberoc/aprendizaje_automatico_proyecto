@@ -43,7 +43,7 @@ Contiene un total de 27 variables:
 
 ·Energy: en el rango de 0.0 a 1.0, representa la intesidad y actividad de la canción. Canciones cercanas a 1.0 serán las más rápidas, ruidosas y enérginas, mientras que las cercanas a 0.0 son las calmadas o suaves.
     
-·Key: tonalidad musical de la cancion, se presenta codificada como número entero 
+·Key: tonalidad musical de la cancion,codificada originalmente como un valor numérico, donde cada numero representa una tonalidad musical concreta
 
 0 = C
 
@@ -70,6 +70,7 @@ Contiene un total de 27 variables:
 11 = B
 
 -1 = no se detecta ninguna tonalidad
+
 
 ·Loudness: volumen global promedio de la cancion en decibelios(dB), los valores típicos se recogen entre -60dB y 0dB, los valores más altos indican mayor volumen percibido.
 
@@ -138,7 +139,7 @@ Para ello se analizan datos de grandes platafromas como Spotify y Youtube, consi
 Pranteamiento del problema:
 
 Tipo de aprendizaje:
-Se plantea un problema de aprendizaje supervisado, con u tarjet definido que permite medir de manera cuantitativa las el éxito en las canciones
+Se plantea un problema de aprendizaje supervisado, con un tarjet definido que permite medir de manera cuantitativa las el éxito en las canciones
 
 Variable objetivo / Target:
 La variable objetivo seleccionada es Stream, que representa el número de reproducciones que una canción obtiene en Spotify.
